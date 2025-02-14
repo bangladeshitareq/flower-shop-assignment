@@ -138,3 +138,67 @@ header {
   text-decoration-line: underline;
   margin-top: 16px;
 }
+
+.servies-area{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 80px 130px;
+  border-radius: 8px;
+
+background: rgba(39, 39, 39, 0.05);
+
+
+}
+
+.servies-area .delivery, .growers, .support{
+  text-align: center;
+
+}
+
+.servies-area p{
+  margin-top: 16px;
+}
+
+/* Hot deal section style start */
+
+.hot-deal{
+
+  border-radius: 8px;
+  margin: 120px 0;
+
+
+background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal .container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.hot-deal .container .hot-deal-text{
+  text-align: center;
+  width: 75%;
+  max-width: 550px;
+}
+
+.hot-deal .container .hot-deal-text h2{
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+}
+
+.hot-deal .container .hot-deal-text span{
+  color: rgb(229, 84, 115);
+}
+
+.hot-deal .container .hot-deal-text p{
+  text-align: center;
+}
+
+.hot-deal .container .hot-deal-img {
+  max-width: 318px;
+}
