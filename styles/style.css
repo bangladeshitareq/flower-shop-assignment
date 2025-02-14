@@ -231,6 +231,8 @@ header {
 
 .newsletter-main {
   background-image: url("../images/newsletterbg.png");
+  background-size: cover;
+
   padding: 122px 0;
   margin-bottom: 128px;
 }
